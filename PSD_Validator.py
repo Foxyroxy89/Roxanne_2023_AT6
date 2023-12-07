@@ -7,8 +7,7 @@ class PSD_Validator:
             if item.isdigit() and int(item) > 0:
                 self.var_name_changed.append(int(item))
   
-# Making mistake here in the print area and ohh MERRY NEW YEAR and HAPPY CHRISTMAS!
+# Fixing the mistake. It's not you, it's me! MERRY CHRISTMAS and HAPPY NEW YEAR!!!
 validator = PSD_Validator()
 validator.validate_and_add(["1", "2", "three", "-4", "5"]) 
-
-      PRINT(validator.var_name_changed)
+print(validator.var_name_changed)
